@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+
+
+body, h1, h2, h3, h4, h5, h6, input, textarea, select {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0 5vw;
+    letter-spacing: -0.1px;
+    color: #222;
+}
+
+h1 {
+    font-size: 6vw;
+    font-weight: 900;
+    margin: 4vw 0;
+}
+
+.Album {
+
+}
+.Album div {
+    display: inline-flex;
+    align-items: center;
+}
+
+.Album div img {
+    width: 35vw;
+    border-radius: 2vw;
+    border: 1px solid #eee;
+    margin-right: 3vw;
+}
+
+.Album .Album-wrap {
+
+}
+
+.Album .txt-area {
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 1 0%;
+}
+.Album .txt-area .number {
+    font-weight: 500;
+    font-size: 3vw;
+    margin-bottom: 1vw;
+}
+.Album .txt-area .title {
+    font-weight: 700;
+    font-size: 4.5vw;
+}
+.Album .txt-area .song {
+    font-weight: 300;
+    font-size: 1vw;
+    color: #7a7a7a;
+}
+
+.Album-wrap + .Album-wrap {
+    margin-top: 1vw;
+}
+.Album + .Album {
+    margin-top: 4vw;
+    padding-top: 5vw;
+    border-top: 1px solid #eee;
+}
